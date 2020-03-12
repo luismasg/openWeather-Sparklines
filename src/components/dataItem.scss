@@ -1,0 +1,24 @@
+.dataItem {
+  display: grid;
+  grid-template: 1fr auto / auto 3fr;
+  svg {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .minmax {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    span {
+      color: grey;
+      font-size: 0.7rem;
+    }
+  }
+  .unit {
+    grid-column: 2;
+    font-size: 1rem;
+    margin-top: 2px;
+    color: grey;
+    text-align: center;
+  }
+}
